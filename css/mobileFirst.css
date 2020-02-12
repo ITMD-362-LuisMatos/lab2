@@ -1,3 +1,32 @@
-@media screen {
+@media (max-width: 600px) {
+	h1, button, label{
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+
+	form{
+		background: aliceblue;
+	}
+
+	.semantic-inputs{
+		margin-top: 2%;
+		margin-left: 25%;
+		width: 50%;
+	}
+
+	#h1-title{
+		color: red;
+		margin: 5% 0;
+	}
+
+	.semantic-labels{
+		margin-top: 2%;
+	}
+
+	#submit-button{
+		margin-left: 25%;
+		width: 50%;
+	}
 
 }

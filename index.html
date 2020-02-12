@@ -9,18 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/normalizeForm.css">
   </head>
   <body>
-    <h1>Individual Information Form</h1>
+    <h1 id="h1-title">Individual Information</h1>
     <form>
       <fieldset>
-        <h2>Please fill in the blanks</h2>
-        <label>Phone Number: </label>
-        <input type="tel" name="phone_field" placeholder="Enter your phone number"><br>
-        <label>Email Address: </label>
-        <input type="email" name="email_field" placeholder="Enter your email"><br>
-        <label>Date of Birth</label>
-        <input type="date" name="dob_field" placeholder="Enter your date of birth">
+        <label class="semantic-labels">Phone Number: </label>
+        <input class="semantic-inputs" type="tel" name="phone_field" placeholder="Enter your phone number" >
+        <label class="semantic-labels">Email Address: </label>
+        <input class="semantic-inputs" type="email" name="email_field" placeholder="Enter your email">
+        <label class="semantic-labels">Date of Birth</label>
+        <input class="semantic-inputs" type="date" name="dob_field" placeholder="Enter your date of birth">
       </fieldset>
-      <input type="submit" value="Send">
+      <input class="semantic-inputs" id="submit-button" type="submit" value="Send">
       <input type="hidden" name="hidden_field" value="lmatos1@hawk.iit.edu">
     </form>
   </body>
