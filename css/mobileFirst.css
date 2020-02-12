@@ -1,4 +1,10 @@
 @media (max-width: 600px) {
+
+	body {
+		background: linen;
+		height: 100%;
+	}
+
 	h1, button, label{
 		width: 100%;
 		text-align: center;
@@ -10,6 +16,7 @@
 	}
 
 	.semantic-inputs{
+		font-family: "Baskerville Old Face";
 		margin-top: 2%;
 		margin-left: 25%;
 		width: 50%;
@@ -18,15 +25,25 @@
 	#h1-title{
 		color: red;
 		margin: 5% 0;
+		font-family: "Bookman Old Style";
+		font-weight: bolder;
 	}
 
 	.semantic-labels{
+		font-family: "Baskerville Old Face";
+		font-weight: bold;
 		margin-top: 2%;
 	}
 
 	#submit-button{
+		font-family: "Baskerville Old Face";
+		font-weight: bold;
 		margin-left: 25%;
 		width: 50%;
+		border-style: dashed;
+		border-radius: 10px;
+		border-color: red;
+		background: lemonchiffon;
 	}
 
 }
