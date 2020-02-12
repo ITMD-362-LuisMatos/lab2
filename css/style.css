@@ -41,6 +41,7 @@
 	#my-form{
 		width: min-content;
 		width: -moz-min-content;
+		-ms-grid-columns: min-content;
 		margin:auto;
 		height: 100%;
 	}
